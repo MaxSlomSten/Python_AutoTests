@@ -1,6 +1,6 @@
 import requests
 
-token = "83ba33f63672a62bf4b34562bf3d7fce"
+token = "токен_из_бота"
 host = "https://pokemonbattle.me:9104/"
 respopnse_add = requests.post(f'{host}pokemons', headers={"trainer_token" : token}, json = {  
     "name":"Pendal",
